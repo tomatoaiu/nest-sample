@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "prebuild": "npx rimraf dist",
+    "build": "npx nest build",
     "start": "npx nest start",
     "start:dev": "npx nest start --watch",
     "start:debug": "npx nest start --debug --watch"
@@ -14,11 +16,12 @@
   "dependencies": {
     "@nestjs/common": "^6.11.5",
     "@nestjs/core": "^6.11.5",
-    "@nestjs/platform-express": "^6.11.5",
+    "@nestjs/platform-fastify": "^6.11.5",
     "reflect-metadata": "^0.1.13",
     "rxjs": "^6.5.4"
   },
   "devDependencies": {
-    "@nestjs/cli": "^6.14.1"
+    "@nestjs/cli": "^6.14.1",
+    "rimraf": "^3.0.1"
   }
 }
