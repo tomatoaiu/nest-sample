@@ -1,0 +1,24 @@
+{
+  "name": "nest-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx nest start",
+    "start:dev": "npx nest start --watch",
+    "start:debug": "npx nest start --debug --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@nestjs/common": "^6.11.5",
+    "@nestjs/core": "^6.11.5",
+    "@nestjs/platform-express": "^6.11.5",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^6.5.4"
+  },
+  "devDependencies": {
+    "@nestjs/cli": "^6.14.1"
+  }
+}
